@@ -177,3 +177,25 @@ header {
 }
   
 /* Write your CSS below */
+@media (width < 760px){
+  .navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top:  10px;
+}
+.main-article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+  .articles-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+
+
+}
